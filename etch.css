@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: blueviolet;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 480px;
+    height: 480px;
+}
+.square{
+    width: 30px;
+    height: 30px;
+    box-sizing: border-box;
+    border: 1px solid gray;
+}
